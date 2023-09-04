@@ -13,7 +13,7 @@ void func_b(int a, int b)
 
 void rec(void (*p)(int, int)) // pointer to the function, e.g. call it
 {
-    (*p)(2, 9);
+    (p)(2, 9);    // Calling a function using function pointer by removing the indirection operator
 }
 
 void main()

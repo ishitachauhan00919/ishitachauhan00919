@@ -1,1 +1,3 @@
 .vscode/
+*.exe
+all_ptr.c
